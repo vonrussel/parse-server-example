@@ -83,7 +83,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "${NAMESPACE}",
-              "name": "nodejs:4"
+              "name": "nodejs:6"
             },
             "env":  [
               {
@@ -436,12 +436,13 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/ParsePlatform/parse-server-example.git"
+      "value": "https://github.com/vonrussel/parse-server-example.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
       "displayName": "Git Reference",
-      "description": "Set this to a branch name, tag or other ref of your repository if you are not using the default branch."
+      "description": "Set this to a branch name, tag or other ref of your repository if you are not using the default branch.",
+      "value": "devel"
     },
     {
       "name": "CONTEXT_DIR",

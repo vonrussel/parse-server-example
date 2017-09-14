@@ -36,8 +36,7 @@
     "yargs": "^8.0.1"
   },
   "scripts": {
-    "build": "gulp",
-    "start": "REST_API_KEY=nice!restApikey@ MASTER_KEY=!moreunqiuemasterkeythanyours! node index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=4.3"
